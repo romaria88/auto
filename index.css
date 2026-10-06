@@ -23,6 +23,8 @@
 
 .logo-img {
     height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .nav {
@@ -30,7 +32,7 @@
   margin-top: 0.82em;
 }
 .nav > ul > li {
-  display:inline-block;  /* переопределение в строчно-блочный  */
+  display: inline-block;  /* переопределение в строчно-блочный  */
 }
 .nav > ul > li.active a{
   background: #d0a5a5;
@@ -55,11 +57,13 @@
 
 
  .mops_bg{
+
   background: url(./image/7.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .mops_text {
   padding: 20% 0%;
+  margin-top: 70px;
 }
 .mops_text h2 {
   color: #fff;
